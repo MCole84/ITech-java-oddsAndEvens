@@ -44,10 +44,6 @@ public class oddsAndEvens {
         Random rand = new Random();
         for (int i = 0; i < 100; i++) {
             values[i] = rand.nextInt();
-            if(values[i]<0) //if a value is negative it is switched to a positive value
-            {
-                values[i]=Math.abs(values[i]);
-            }
         }
         return values;
     }
